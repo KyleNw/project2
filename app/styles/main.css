@@ -9,35 +9,9 @@
 body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  font-family: 'Merriweather', serif;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 1rem;
-  padding-left: 1rem;
-}
-
-/* Custom page header */
-.header {
-  padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
-}
-
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 3rem;
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 1.5rem;
-  color: #777;
-  border-top: .05rem solid #e5e5e5;
-}
 
 /* Customize container */
 @media (min-width: 48em) {
@@ -45,30 +19,10 @@ body {
     max-width: 46rem;
   }
 }
-.container-narrow > hr {
-  margin: 2rem 0;
-}
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: .05rem solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: .75rem 1.5rem;
-  font-size: 1.5rem;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 3rem 0;
-}
-.marketing p + h4 {
-  margin-top: 1.5rem;
-}
 #sec1{
   background-color: #333;
-  color: white;
+  color: black;
   font-size: 6em;
   text-align: center;
   background-image: url("../images/graf2.jpg");
@@ -77,6 +31,137 @@ body {
             background-size: cover;
             background-attachment: fixed;
 }
+.slideInfo{
+  background-color: #333;
+  color: white;
+  font-size: 6em;
+  text-align: center;
+  
+}
+#sec3{
+  background-color: white;
+}
+.video{
+    z-index: -9999;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: black;
+   
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    
+ 
+ 
+}
+.middleDiv{
+  font-size: 5em;
+  z-index: 100;
+  position: relative;
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+}
+.photo{
+  /*background-color: grey;*/
+  height: 80%;
+  float: left;
+ 
+}
+.info{
+ background-color: white;
+ height: 100%;
+ padding-top: 10%;
+ font-size: 16px;
+ color: black;
+ text-align: center;
+ line-height: 180%;
+ 
+ 
+
+}
+.back{
+    width: 50%;
+    height: 134%;
+    margin-top: -10%;
+    margin-left: 0%;
+    z-index: -999;
+    float: left;
+    opacity: 1;
+}
+.words{
+  background: rgba(255, 255, 255, 0.6);
+
+}
+h1{
+  font-size: 1.5em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.headerTxt{
+  text-align: center;
+  font-size: 2em;
+}
+
+
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent black transparent transparent;
+    
+}
+
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent black;
+    /*opacity: .6;*/
+}
+.content{
+  margin:50px;
+}
+/*footer*/
+#footer{
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+.myName{
+  float: right;
+  padding-right: 10%;
+ 
+}
+.diesngedBy{
+   color: #464a4c;
+  
+}
+.designedBy:hover{
+  color: white;
+}
+
+.noDec{
+  list-style:none;
+}
+.link{
+  color: white;
+}
+.link:hover{
+  color: #afb179;
+}
+.link:visited{
+  opacity: .06;
+}
+li{
+  margin-bottom: 5px;
+}
+
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 48em) {
